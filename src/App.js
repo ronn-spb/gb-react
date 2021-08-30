@@ -1,12 +1,16 @@
-import logo from './logo.svg';
+import React, { useState } from "react";
 import './App.css';
-import Message  from './components/Message';
 
+import MessageList from "./components/MessageList";
 
 function App() {
+  
   return (
     <div className="App">
-      <Message text="test"/>
+     
+      <MessageList text="test"/>
+     
+      
     </div>
      
   );
