@@ -13,7 +13,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,8 +34,8 @@
     transform: rotate(360deg);
   }
 }
-.messagewraper{
+/* .messagewraper{
   width: 40%;
   min-height: 600px;
   border: 1px solid black;
-}
+} */
